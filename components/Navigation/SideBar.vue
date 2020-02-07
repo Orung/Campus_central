@@ -11,10 +11,10 @@
             <div class="side-bar"> 
               <div class=" navbar-collapse displaynav-mobile">
                   <ul>
-                      <li id="schools"><nuxt-link to="school" title="school"><i class="fa fa-graduation-cap"></i>Schools</nuxt-link></li>
-                      <li id="events"><nuxt-link to="events" title="events" ><i class="fa fa-calendar"></i>Events</nuxt-link></li>
-                      <li id="reports"><nuxt-link to="reports" title="reports" ><i class="fa fa-file"></i>Reports</nuxt-link></li>
-                      <li id="rates"><nuxt-link to="rates" title="rates"><i class="fa fa-star"></i>Rates</nuxt-link></li>
+                      <li id="schools"><nuxt-link to="/school" title="school"><i class="fa fa-graduation-cap"></i>Schools</nuxt-link></li>
+                      <li id="events"><nuxt-link to="/events" title="events" ><i class="fa fa-calendar"></i>Events</nuxt-link></li>
+                      <li id="reports"><nuxt-link to="/reports" title="reports" ><i class="fa fa-file"></i>Reports</nuxt-link></li>
+                      <li id="rates"><nuxt-link to="/rates" title="rates"><i class="fa fa-star"></i>Rates</nuxt-link></li>
                       <li class="" id="profile"><nuxt-link to="profile" title="logout" ><i class="fa fa-user"></i>Profile</nuxt-link></li>
                       <li class=""><nuxt-link to="/" title="logout" id="logout"><i class="fa fa-sign-out"></i>Log out</nuxt-link></li>
                   </ul>
@@ -26,17 +26,10 @@
     </b-collapse>
 </template>
 <script>
-import TheHeader from '@/components/Navigation/TheHeader'
+import navheader from '@/components/navigation/navheader'
 export default {
   components:{
-    TheHeader
-  },
-  name:'SideBar',
-  props:{
-    show:{
-      type:Boolean,
-      default:false
-    }
+    navheader
   }
 }
 </script>

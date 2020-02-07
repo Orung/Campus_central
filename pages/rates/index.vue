@@ -113,4 +113,16 @@ export default{
       padding: 20px;
       margin: 10px 0px;
   }
+    @media (max-width: 767.98px){
+  
+.content-sect{
+    width: auto;
+   float: none;
+    margin: 96px auto;
+    border: 0px solid #ccc;
+     padding: 27px;
+    padding-top: 1px;
+    box-shadow: 0px 0px 3px 0px;
+}
+}
 </style>

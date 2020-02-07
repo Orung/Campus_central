@@ -4,7 +4,7 @@
         <div class="col-md-4 col-4 text-center events-listing-text">
           <h5>{{day}} </h5>
           <p>{{month}}</p>
-          <nuxt-link :to="/post/ + id" class="btn btn-danger mt-3">Read More</nuxt-link>
+          <nuxt-link :to="`/events/${id}`" class="btn btn-danger mt-3">Read More</nuxt-link>
           
         </div>
         <div class="col-md-8 col-8 events-listing-content pt-3">
@@ -99,7 +99,7 @@
 
 <script>
 export default {
-  name: 'eventPost',
+  name: '_id',
   props: {
     id: {
       type: String,

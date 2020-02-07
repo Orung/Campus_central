@@ -27,7 +27,7 @@
               <div class="">
                     <div class="">
                         <div class="result">
-                         <schoolPost id="1" thumbnail="../assets/img/pple.jpg" title="University of Uyo" 
+                         <schoolPost id="1" thumbnail="~/static/img/pple.jpg" title="University of Uyo" 
                          previewText=" Lorem ipsum dolor sit amet consectur adipisicing elit. 
                          Placeat, aliquammoles tiae "/>
                          <schoolPost id="2" thumbnail="" title="University of Uyo" 
@@ -103,4 +103,16 @@ export default{
       padding: 20px;
       margin: 10px 0px;
   }
+  @media (max-width: 767.98px){
+  
+.content-sect{
+    width: auto;
+   float: none;
+    margin: 0 auto;
+    border: 0px solid #ccc;
+     padding: 27px;
+    padding-top: 73px;
+    box-shadow: 0px 0px 3px 0px;
+}
+}
 </style>

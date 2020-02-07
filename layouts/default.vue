@@ -1,7 +1,7 @@
 <template> 
   <div>
-    <TheHeader/>
-    <SideBar/>
+    <navheader/>
+    <sidebar/>
     <Footer/>
     <nuxt />
     
@@ -9,20 +9,15 @@
 </template>
 </style>
 <script>
-import TheHeader from '@/components/Navigation/TheHeader'
-import SideBar from '@/components/Navigation/SideBar'
+import navheader from '@/components/navigation/navheader'
+import sidebar from '@/components/navigation/sidebar'
 import Footer from '@/components/Footer/Footer'
 export default{
   components:{
-    TheHeader,
-    SideBar,
+    navheader,
+    sidebar,
     Footer
-},
-data(){
-  return{
-    displaySidenav:false
-  }
-} 
+}
 }
 
       

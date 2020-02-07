@@ -30,7 +30,7 @@
                         <div class="col-md-4 col-4 img-evt events-listing-text">
                         <!-- <img src="img/name_person.jpeg" width="100%">                        -->
                         </div>
-                        <div class="col-md-8 col-8 events-listing-content pt-3">
+                        <div class="col-md-8 col-8 events-listing-content pt-3" >
                             <p class="m-0">Aug. 30th, 2020 </p>
                           <h5 class="fs-16">Uniuyo Host Davido</h5>
                           <p>Time:<span>8:30am</span>   </p>
@@ -111,12 +111,7 @@ export default{
 }
 </script>
 <style scoped>
-@media (max-width: 767.98px){
-  .content-sect{
-  padding: 27px;
-  padding-top: 73px;
-}
-}
+
 .content-sect{
       width: 78%;
     float: right;
@@ -241,5 +236,17 @@ export default{
     border: 246px;
     background-repeat: no-repeat;
     background-position: center;
+}
+    @media (max-width: 767.98px){
+  
+.content-sect{
+    width: auto;
+   float: none;
+    margin: 96px auto;
+    border: 0px solid #ccc;
+     padding: 27px;
+    padding-top: 1px;
+    box-shadow: 0px 0px 3px 0px;
+}
 }
 </style>
